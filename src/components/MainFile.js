@@ -19,17 +19,40 @@ function MainPage() {
     <reactbootsrap.ListGroup.Item>Resume</reactbootsrap.ListGroup.Item>
     </reactbootsrap.ListGroup>
   }
+  const ProfileImage =()=>{
+    return <img src=''/>
+  }
+  const About =()=>{
 
+  }
+  const Experience =()=>{
+
+  }
+  const Projects =()=>{
+
+  }
+  const Achivements =()=>{
+
+  }
+  const Education =()=>{
+
+  }
+  const Contact =()=>{
+
+  }
+  const Resume =()=>{
+
+  }
   const RightSide =()=> {
     return <>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
-    <reactbootsrap.Row></reactbootsrap.Row>
+    <reactbootsrap.Row>{ProfileImage()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{About()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{Experience()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{Projects()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{Achivements()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{Education()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{Contact()}</reactbootsrap.Row>
+    <reactbootsrap.Row>{Resume()}</reactbootsrap.Row>
     </>
   }
 
