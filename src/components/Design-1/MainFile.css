@@ -1,0 +1,50 @@
+.nav-tabs .nav-link.active.active{
+  background-color: #e91975;
+  color: #faf3f3;
+  border-color: 0px;
+}
+.nav-tabs .nav-link{
+  color: #1b1717;
+  background-color:#9A1750;
+  -webkit-border-radius: 0 !important;
+   -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+}
+.nav-link:hover {
+  border-color: none;
+  opacity: 0.8;
+}
+.list-group-item {
+  border: 0px;
+  float: left;
+}
+
+.about {
+  font-size: 4rem;
+  font-family: initial;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+}
+
+
+.list-group-item {
+  text-align: left;
+}
+
+.customList {
+  border: 0px none;
+  padding-left: 4rem;
+}
+img{
+  width: 20%;
+  margin: 2px;
+}
+.projectHeader {
+  font-size: 1.2rem;
+}
+.educationFont {
+  font-size: 1.2rem;
+}
+.customFont {
+  font-family: initial;
+}
