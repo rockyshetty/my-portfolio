@@ -10,7 +10,7 @@ function MainFile() {
            'fontSize': '1.2rem',
      };
   const ProfileImage =()=>{
-    return <img className="col-md-12 m-0 p-0" style={{width:"100%"}}src='https://drive.google.com/uc?export=view&id=14VpzV8rGQUq_ndhwmmF8TYSE6flWbt_L'/>
+    return <img className="col-md-12 m-0 p-0" style={{height:"90vh",width:"100%"}}src='https://drive.google.com/uc?export=view&id=14VpzV8rGQUq_ndhwmmF8TYSE6flWbt_L'/>
 
   }
   const About =()=>{
