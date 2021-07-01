@@ -48,3 +48,7 @@ img{
 .customFont {
   font-family: initial;
 }
+
+.tab-pane {
+  height: 100vh
+}

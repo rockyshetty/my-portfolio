@@ -15,16 +15,16 @@ function MainFile() {
   }
   const About =()=>{
     return <React.Fragment className="col-md-12 col-sm-12 justify-content-md-center">
-           <reactbootstrap.FormLabel className="customFont about">
+           <p className="customFont about">
                            A Full Stack Developer with 2 years of experience in React Js, Laravel, PostgreSQL, Javascript, Php.
-           </reactbootstrap.FormLabel>
+           </p>
            </React.Fragment>
   }
   const Projects =()=>{
     return <div className="customFont p-4">
            <div className="mt-3">
-                <reactbootstrap.FormLabel className="col-md-12 text-left font-weight-bold projectHeader">Digital Quality Management Tool for Belgium industry</reactbootstrap.FormLabel>
-                <reactbootstrap.FormLabel className="col-md-12 text-left ml-4 font-weight-bold projectHeader">Full Stack developer <span className="col-md-4 float-right">August 2019 - January 2021 </span></reactbootstrap.FormLabel>
+                <p className="col-md-12 text-left font-weight-bold projectHeader">Digital Quality Management Tool for Belgium industry</p>
+                <p className="col-md-12 text-left ml-4 font-weight-bold projectHeader">Full Stack developer <span className="col-md-4 float-right">August 2019 - January 2021 </span></p>
                 <reactbootstrap.ListGroup className="col-md-12 pl-2">
                   <reactbootstrap.ListGroup.Item   style={ListItemStyle}>Design and Develop interactive UI's as per client requirement using React js, Javascript, ReactBootsrap, HTML, CSS.</reactbootstrap.ListGroup.Item>
                   <reactbootstrap.ListGroup.Item   style={ListItemStyle}>Developing Business logic and commuincation with database in the backend using Php, Laravel, PostgreSQL</reactbootstrap.ListGroup.Item>
@@ -37,8 +37,8 @@ function MainFile() {
                 </reactbootstrap.ListGroup>
            </div>
            <div className="mt-3">
-                 <reactbootstrap.FormLabel className="col-md-12 text-left font-weight-bold projectHeader">Middleware for Ecommerce site.</reactbootstrap.FormLabel>
-                 <reactbootstrap.FormLabel className="col-md-12 text-left ml-4 font-weight-bold projectHeader">Full Stack developer <span className="col-md-4 float-right">January 2021 - Present</span></reactbootstrap.FormLabel>
+                 <p className="col-md-12 text-left font-weight-bold projectHeader">Middleware for Ecommerce site.</p>
+                 <p className="col-md-12 text-left ml-4 font-weight-bold projectHeader">Full Stack developer <span className="col-md-4 float-right">January 2021 - Present</span></p>
                  <reactbootstrap.ListGroup className="col-md-12 pl-2">
                   <reactbootstrap.ListGroup.Item   style={ListItemStyle}>Debugging developed live code and providing solutions for the issues and integrating new development. </reactbootstrap.ListGroup.Item>
                   <reactbootstrap.ListGroup.Item   style={ListItemStyle}>Using PHP, Codeignator, oracle database Technology.</reactbootstrap.ListGroup.Item>
@@ -50,18 +50,18 @@ function MainFile() {
   const Education =()=>{
     return <div className="educationFont p-4  customFont">
             <div className="mt-2">
-                 <reactbootstrap.FormLabel className="col-md-12 text-left font-weight-bold projectHeader">Bachelor of Engineering</reactbootstrap.FormLabel>
-                 <reactbootstrap.FormLabel className="col-md-12 text-left ml-4">Vidya vikas Institute of Engineering and Technology.Mysuru</reactbootstrap.FormLabel>
-                 <reactbootstrap.FormLabel className="col-md-12 text-left ml-4">Electronics and Communications Engineering<span className="col-md-2 float-right">2015 - 2018</span></reactbootstrap.FormLabel>
+                 <p className="col-md-12 text-left font-weight-bold projectHeader">Bachelor of Engineering</p>
+                 <p className="col-md-12 text-left ml-4">Vidya vikas Institute of Engineering and Technology.Mysuru</p>
+                 <p className="col-md-12 text-left ml-4">Electronics and Communications Engineering<span className="col-md-2 float-right">2015 - 2018</span></p>
             </div>
                 <div  className="mt-2">
-                 <reactbootstrap.FormLabel className="col-md-12 text-left font-weight-bold projectHeader">Diploma</reactbootstrap.FormLabel>
-                 <reactbootstrap.FormLabel className="col-md-12 text-left ml-4">Government CPC Polytechnic.Mysuru</reactbootstrap.FormLabel>
-                 <reactbootstrap.FormLabel className="col-md-12 text-left ml-4">Electronics and Communications Engineering <span className="col-md-2 float-right">2012 - 2015</span></reactbootstrap.FormLabel>
+                 <p className="col-md-12 text-left font-weight-bold projectHeader">Diploma</p>
+                 <p className="col-md-12 text-left ml-4">Government CPC Polytechnic.Mysuru</p>
+                 <p className="col-md-12 text-left ml-4">Electronics and Communications Engineering <span className="col-md-2 float-right">2012 - 2015</span></p>
             </div>
             <div  className="mt-2">
-                 <reactbootstrap.FormLabel className="col-md-12 text-left font-weight-bold projectHeader">Highest school</reactbootstrap.FormLabel>
-                 <reactbootstrap.FormLabel className="col-md-12 text-left ml-4">Rotary Education society. Mandya <span className="col-md-2 float-right">2012</span></reactbootstrap.FormLabel>
+                 <p className="col-md-12 text-left font-weight-bold projectHeader">Highest school</p>
+                 <p className="col-md-12 text-left ml-4">Rotary Education society. Mandya <span className="col-md-2 float-right">2012</span></p>
             </div>
            </div>
   }
@@ -93,11 +93,11 @@ function MainFile() {
   }
 
   return <div className="fluid">
-  <reactbootstrap.Tabs className="nav-justified flex-column">
+  <reactbootstrap.Tabs className="nav-justified">
   <reactbootstrap.Tab eventKey={1} title={<span><div>Rakesh H M</div><div>Full Stack Developer</div></span>}>
   {ProfileImage()}
   </reactbootstrap.Tab>
-  <reactbootstrap.Tab  eventKey={2} title={<span><i class="fa fa-user-circle-o m-1" aria-hidden="true"></i>About</span>}>
+  <reactbootstrap.Tab  eventKey={2} title={<span><i class="fa fa-fw fa-user m-1" aria-hidden="true"></i>About</span>}>
   {About()}
   </reactbootstrap.Tab>
   <reactbootstrap.Tab eventKey={4} title={<span><i class="fa fa-tasks m-1" aria-hidden="true"></i>Projects</span>}>
